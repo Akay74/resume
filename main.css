@@ -166,7 +166,7 @@ progress{
 }
 
 #form{
-    background-image: url('/images/map.jpg');
+    background-image: url('images/map.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
