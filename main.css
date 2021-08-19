@@ -226,7 +226,7 @@ footer{
 
 .icons .internship-icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -248,7 +248,7 @@ footer{
 }
 
 .internship-icons img{
-    width: 100pxd;
+    width: 150px;
     height: 30px;
 }
 
@@ -257,22 +257,28 @@ footer{
         margin: 7rem;
         padding: 0.5rem 1.5rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: top;
     }
 
     .about{
-        width: 50%;
+        flex-basis: 45%;
     }
 
     .basic-info{
         margin-right: 3rem;
-        width: 50%;
+        flex-basis: 45%;
     }
 
     .basic-content p{
         display: inline-block;
     }
+
+    .skills-progress{
+        margin: 0 7rem; 
+    }
+
+    
 
     .portfolio-ctn{
         margin: 6rem;
@@ -286,6 +292,19 @@ footer{
 
     .works a{
         flex-basis: 30%;
+    }
+
+    .experience{
+        margin: 6rem 7rem;
+    }
+
+    #form{
+        height: 100vh
+    }
+
+    #form > div{
+        margin: 1rem 15rem;
+        padding: 1rem 2rem;
     }
 }
 

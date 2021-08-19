@@ -11,17 +11,17 @@
 
     <body>
         <main>
-            <header>
+            <header class="header">
                 <div class="container">
-                    <div class="akaylogo">
+                    <a href="https://github.com/Akay74" target="blank" class="akaylogo">
                         Akay
-                    </div>
+                    </a>
                     <nav class="desktop-nav">
-                        <a href="#">About</a>
-                        <a href="#">Skills</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Experience</a>
-                        <a href="#">Contact</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#form">Contact</a>
                     </nav>
     
                     <button class="hamburger">
@@ -31,11 +31,11 @@
             </header>
     
             <nav class="mobile-nav">
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Experience</a>
-                <a href="#">Contact</a>
+                <a href="#about" class="click">About</a>
+                <a href="#skills" class="click">Skills</a>
+                <a href="#portfolio" class="click">Portfolio</a>
+                <a href="#experience" class="click">Experience</a>
+                <a href="#form" class="click">Contact</a>
             </nav>
 
             <section class="intro">
@@ -50,7 +50,7 @@
             </section>
         </main>
 
-        <section class="personal-info">
+        <section class="personal-info" id="about">
             <div class="about">
                 <h2 class="about-title">About</h2>
                 <p class="about-content">Hello! I am Akachukwu Udeh. Web Developer, Article Writer, Dog Trainer and Breeder.</p>
@@ -65,7 +65,7 @@
                 <p class="basic-content"><span>language:</span>English, Igbo, Spanish</p>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div><h2 class="skills-title">Professional Skills</h2></div>
             <div class="skills-progress">
                 <div>
@@ -111,7 +111,7 @@
             </div>
         </section>
 
-        <section class="portfolio-ctn">
+        <section class="portfolio-ctn" id="portfolio">
             <h2 class="port-header">Portfolio</h2>
             <div class="works">
                 <a href="https://akay74.github.io/easy-banking/"><img src="/images/eazy.jpeg" alt="Banking UI"></a>
@@ -120,22 +120,24 @@
             </div>
         </section>
 
-        <section class="experience">
+        <section class="experience" id="experience">
             <h2>Work Experience</h2>
-            <div class="exp-card">
-                <h3>HNG 7.0 Intern</h3>
-                <p>July-August 2020</p>
-                <p>Worked with a amazing people to build responsive frontend web apps</p>
-            </div>
-            <div class="exp-card">
-                <h3>Freelance Article Writer</h3>
-                <p>2019-2021</p>
-                <p>Worked with clients from Upwork to deliver technical articles and also articles on pets and pet products</p>
-            </div>
-            <div class="exp-card">
-                <h3>Dog Breeder and Handler</h3>
-                <p>2008-Till Date</p>
-                <p>Creating different training programs and breeding programs for dog owners and lovers</p>
+            <div>
+                <div class="exp-card">
+                    <h3>HNG 7.0 Intern</h3>
+                    <p>July-August 2020</p>
+                    <p>Worked with a amazing people to build responsive frontend web apps</p>
+                </div>
+                <div class="exp-card">
+                    <h3>Freelance Article Writer</h3>
+                    <p>2019-2021</p>
+                    <p>Worked with clients from Upwork to deliver technical articles and also articles on pets and pet products</p>
+                </div>
+                <div class="exp-card">
+                    <h3>Dog Breeder and Handler</h3>
+                    <p>2008-Till Date</p>
+                    <p>Creating different training programs and breeding programs for dog owners and lovers</p>
+                </div>
             </div>
         </section>
 
