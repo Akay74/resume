@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Akay's Resume</title>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <div class="container">
+                    <div class="akaylogo">
+                        Akay
+                    </div>
+                    <nav class="desktop-nav">
+                        <a href="#">About</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Experience</a>
+                        <a href="#">Contact</a>
+                    </nav>
+    
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </div>
+            </header>
+    
+            <nav class="mobile-nav">
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Experience</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <section class="intro">
+                <div class="picture">
+                    <img src="images/personal-img.jpg" alt="Young Nigerian programmer">
+                </div>
+                <div class="identity">
+                    <h2 class="name">Akachukwu Udeh</h2>
+                    <p class="summary">Web developer, Article Writer, Dog handler and breeder</p>
+                    <a href="#form" class="btn">Contact Me</a>
+                </div>
+            </section>
+        </main>
+
+        <section class="personal-info">
+            <div class="about">
+                <h2 class="about-title">About</h2>
+                <p class="about-content">Hello! I am Akachukwu Udeh. Web Developer, Article Writer, Dog Trainer and Breeder.</p>
+                <p class="about-content">I build responsive web apps using HTML/CSS, Bootstrap, JavaScript and VueJS. When I'm not writing codes or doing programmer stuff, I train and breed dogs, offer consultation services for people who are interested in pets. I also provide pet grooming services.</p>
+            </div>
+            <div class="basic-info">
+                <h2 class="basic-title">Basic Information</h2>
+                <p class="basic-content"><span>age:</span>24</p>
+                <p class="basic-content"><span>email:</span>akaudeh@gmail.com</p>
+                <p class="basic-content"><span>phone:</span>+2348183969173</p>
+                <p class="basic-content"><span>address:</span>Phase 6, Trans-Ekulu, Enugu</p>
+                <p class="basic-content"><span>language:</span>English, Igbo, Spanish</p>
+            </div>
+        </section>
+        <section class="skills">
+            <div><h2 class="skills-title">Professional Skills</h2></div>
+            <div class="skills-progress">
+                <div>
+                    <div>
+                        <p>HTML</p>
+                        <P>Intermediate</P>
+                    </div>
+                    <progress value="2" max="3">
+                    </progress>
+                </div>
+                <div>
+                    <div>
+                        <p>CSS</p>
+                        <P>Intermediate</P>
+                    </div>
+                    <progress value="2" max="3">
+                    </progress>
+                </div>
+                <div>
+                    <div>
+                        <p>JAVASCRIPT</p>
+                        <P>Beginner</P>
+                    </div>
+                    <progress value="1" max="3">
+                    </progress>
+                </div>
+                <div>
+                    <div>
+                        <p>BOOTSTRAP</p>
+                        <P>Intermediate</P>
+                    </div>
+                    <progress value="2" max="3">
+                    </progress>
+                </div>
+                <div>
+                    <div>
+                        <p>VUEJS</p>
+                        <P>Beginner</P>
+                    </div>
+                    <progress value="1" max="3">
+                    </progress>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-ctn">
+            <h2 class="port-header">Portfolio</h2>
+            <div class="works">
+                <a href="https://akay74.github.io/easy-banking/"><img src="/images/eazy.jpeg" alt="Banking UI"></a>
+            <a href="https://akay74.github.io/recipe-app-UI/"><img src="/images/recipe.jpeg" alt="recipe app UI"></a>
+            <a href="https://akay74.github.io/random_ui/"><img src="/images/random.jpeg" alt="Random UI"></a>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="exp-card">
+                <h3>HNG 7.0 Intern</h3>
+                <p>July-August 2020</p>
+                <p>Worked with a amazing people to build responsive frontend web apps</p>
+            </div>
+            <div class="exp-card">
+                <h3>Freelance Article Writer</h3>
+                <p>2019-2021</p>
+                <p>Worked with clients from Upwork to deliver technical articles and also articles on pets and pet products</p>
+            </div>
+            <div class="exp-card">
+                <h3>Dog Breeder and Handler</h3>
+                <p>2008-Till Date</p>
+                <p>Creating different training programs and breeding programs for dog owners and lovers</p>
+            </div>
+        </section>
+
+        <section id="form">
+            <div>
+                <div>
+                    <h2>Contact Me</h2>
+                </div>
+                <form action="registration_form.php" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+        
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+        
+                    <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+        
+                    <input type="text" id="message" name="message" placeholder="Your Message" required><br><br>
+        
+                    <input type="submit" id="submit" value="Send">
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="icons">
+                <a href="https://web.facebook.com/udeh.akachukwu" target="blank"><img src="/images/icons8-facebook-f.svg" alt="Blue facebook icon"></a>
+                <a href="https://www.instagram.com/a_kay_chukwu/" target="blank"><img src="/images/icons8-instagram-old.svg" alt="Old blue instagram icon"></a>
+                <a href="" target="blank"></a><img src="/images/icons8-twitter.svg" alt="Blue twitter icon"></a>
+            </div>
+
+            <p class="int-icons-header">Powered by</p>
+
+            <div class="internship-icons">
+                <a href="https://internship.zuri.team/" target="blank"><img src="/images/zuri.png" alt="zuri logo"></a>
+                <a href="https://ingressive.org/#" target="blank"><img src="/images/I4G-Logo-Color-Cropped.png" alt="Ingressive for Good logo"></a>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

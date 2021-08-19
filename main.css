@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 253, 253);
+    font-family: 'Red Hat Text', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    background: url('/images/bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.picture{
+    margin: 5rem 0 4rem;
+}
+
+.picture img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 38px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.summary{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 1rem 0 3rem;
+}
+
+.identity a{
+    background-color: rgb(90, 190, 90);
+    width: 150px;
+    margin: 5rem auto 0;
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.identity a:hover{
+    background-color:rgb(157, 216, 93);
+    cursor: pointer;
+}
+
+.personal-info{
+    margin: 2rem 0.8rem;
+    padding: 1rem 0.8rem;
+    border-radius: 3px;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 2px 13px 6px rgba(0,0,0,0.27);
+
+}
+
+.personal-info h2{
+    font-size: 34px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.basic-info{
+    margin-top: 3rem;
+}
+
+.basic-content span{
+    display:block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skills{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 5rem auto 2rem;
+}
+
+.skills-title{
+    color: black;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.skills-progress{
+    margin: 2rem 0.8rem;
+    padding: 1rem 1.5rem 3rem;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #378c3f;
+    box-shadow: 0px 2px 13px 6px rgba(0,0,0,0.27);
+}
+
+.skills-progress > div > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+progress{
+    width: 100%;
+    height: 5px;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.portfolio-ctn{
+    color: black;
+    text-align: center;
+    margin: 5rem 0.8rem;
+}
+
+.portfolio-ctn h2{
+    font-size: 34px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.portfolio-ctn img{
+    width: 100%;
+    height: 300px;
+    margin: 0.8rem 0;
+    box-shadow: 0px 2px 13px 6px rgba(0,0,0,0.27);
+}
+
+.portfolio-ctn img:hover{
+    width: 95%;
+}
+
+.experience{
+    margin: 3rem 0.8rem 1rem;
+}
+
+.experience > h2{
+    color: #000;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exp-card{
+    width: 100%;
+    color: #000;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 2.5rem 0;
+    box-shadow: 0px 2px 13px 6px rgba(0,0,0,0.27);
+}
+
+#form{
+    background-image: url('/images/map.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-top: 1rem;
+}
+
+#form > div{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: -1px 0px 15px -5px rgba(0,0,0,0.59);
+}
+
+#form h2{
+    color: #000;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#form input{
+    font-size: 16px;
+}
+
+#name, #subject, #email{
+    width: 100%;
+    padding: 18px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #dfdcd7;
+}
+
+#message{
+    width: 100%;
+    padding: 18px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #378c3f;
+}
+
+#submit{
+    padding: 12px;
+    width: 30%;
+    background-color: #378c3f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+footer{
+    margin: 3rem auto 2rem;
+    text-align: center;
+    width: 80%;
+}
+
+.icons .internship-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons img{
+    height: 35px;
+    width: 35px;
+}
+
+.icons img:hover{
+    width: 40px;
+    transition: 0.4s ease;
+}
+
+
+.int-icons-header{
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.internship-icons img{
+    width: 100pxd;
+    height: 30px;
+}
+
+@media (min-width: 768px){
+    .personal-info{
+        margin: 7rem;
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+    }
+
+    .about{
+        width: 50%;
+    }
+
+    .basic-info{
+        margin-right: 3rem;
+        width: 50%;
+    }
+
+    .basic-content p{
+        display: inline-block;
+    }
+
+    .portfolio-ctn{
+        margin: 6rem;
+    }
+
+    .works{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .works a{
+        flex-basis: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
